@@ -139,6 +139,7 @@ header {
 
 .quote__text {
   border-left: 3px solid #F8D71D;
+  line-height:40px;
 }
 
 #quote__1{

@@ -6,6 +6,10 @@ a:link {
   text-decoration: none;
 }
 
+hr {
+  width:35%;
+}
+
 .clear{
   clear:both;
 }
@@ -78,12 +82,28 @@ header {
   height:360px;
   bottom:200px;
   right:20px;
-  margin:0px;
 }
 
 .book__face {
   border:5px solid #999900;
   width:225px;
   height:350px;
+  text-align:center;
 }
 
+.book__face h4 {
+  color:red;
+  font-size: 16pt;
+  line-height:40px;
+  margin-bottom:20px;
+}
+
+.book__face h5 {
+  color:#999900;
+  line-height:10px;
+}
+
+.details {
+  float:left;
+  width:30%;
+}

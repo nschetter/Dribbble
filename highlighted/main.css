@@ -28,7 +28,7 @@ header {
 .header__logo {
   float:left;
   width:15%;
-  margin-left:150px;
+  margin-left:140px;
   color:#999900;
   margin-right:30px;
 }
@@ -70,25 +70,23 @@ header {
 }
 
 .container {
-  margin-left:14%;
-  margin-right:14%;
+  margin-left:12%;
+  margin-right:12%;
 }
 
 .book {
-  position:relative;
+  text-align:center;
   border:5px solid red;
   background:white;
   width:235px;
   height:360px;
-  bottom:200px;
-  right:20px;
+  margin-right:0px;
+  margin-left:12%;
+  margin-top:-200px;
 }
 
-.book__face {
+.book:before {
   border:5px solid #999900;
-  width:225px;
-  height:350px;
-  text-align:center;
 }
 
 .book__face h4 {
@@ -106,4 +104,19 @@ header {
 .details {
   float:left;
   width:30%;
+  color:gray;
+  margin-top:20px;
+}
+
+.details__category {
+  font-weight:bold;
+  margin-bottom:0px;
+}
+
+.category__contents {
+  margin-top:5px;
+}
+
+.quotes__quote {
+  float:right;
 }

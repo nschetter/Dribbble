@@ -77,26 +77,23 @@ header {
 .book {
   text-align:center;
   border:5px solid red;
+  outline:5px solid #999900;
   background:white;
   width:235px;
   height:360px;
-  margin-right:0px;
-  margin-left:12%;
-  margin-top:-200px;
+  margin:0px;
+  position:absolute;
+  bottom:180px;
 }
 
-.book:before {
-  border:5px solid #999900;
-}
-
-.book__face h4 {
+.book h4 {
   color:red;
   font-size: 16pt;
   line-height:40px;
   margin-bottom:20px;
 }
 
-.book__face h5 {
+.book h5 {
   color:#999900;
   line-height:10px;
 }
@@ -105,7 +102,7 @@ header {
   float:left;
   width:30%;
   color:gray;
-  margin-top:20px;
+  margin-top:200px;
 }
 
 .details__category {
@@ -117,6 +114,13 @@ header {
   margin-top:5px;
 }
 
+.quotes {
+  float:right;
+  margin-right:100px;
+  width:50%;
+}
+
 .quotes__quote {
   float:right;
+  border-left: 3px solid #F8D71D;
 }

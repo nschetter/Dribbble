@@ -1,3 +1,7 @@
+*{
+  font-family:Arial;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -8,14 +12,21 @@ a:link {
 
 header {
   background:#F8D71D;
-  height: 333px;
+  height: 300px;
   margin:35px;
+}
+
+.header__top-bar {
+  margin-top:20px;
+  padding-top:20px;
 }
 
 .header__logo {
   float:left;
   width:15%;
   margin-left:150px;
+  color:#999900;
+  margin-right:30px;
 }
 
 .header__navigation {
@@ -27,13 +38,52 @@ header {
   float:left;
   list-style-type:none;
   margin:7px;
-  margin-right:15px;
+  margin-right:35px;
+  margin-left:35px;
+  font-size:14pt;
 }
 
 .header__search {
   float:right;
   width:35px;
   height:35px;
-  margin-top:20px;
-  margin-right:20px;
+  margin-top:23px;
+  margin-right:33px;
 }
+
+.header__text {
+  float:right;
+  margin-right: 500px;
+  margin-top: 80px;
+}
+
+.header__text h4 {
+  color:#999900;
+}
+
+.header__text h2 {
+  color:white;
+}
+
+.container {
+  margin-left:14%;
+  margin-right:14%;
+}
+
+.book {
+  position:relative;
+  border:5px solid red;
+  background:white;
+  width:235px;
+  height:360px;
+  bottom:200px;
+  right:20px;
+  margin:0px;
+}
+
+.book__face {
+  border:5px solid #999900;
+  width:225px;
+  height:350px;
+}
+

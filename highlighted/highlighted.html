@@ -7,84 +7,103 @@
 <body>
   
   <header>  
-  
-    <div class="header__top-bar">
-      <div class="header__logo">
+    
+    <div class="container header__top-bar">
+      <!-- float: left -->
+      <div class="header__logo left-side-container">
         <h3>Highlighted</h3>
       </div>
   
-      <div class="header__navigation">
-        <ul>
-          <li><a href="">Books</a></li>
-          <li><a href="">Authors</a></li>
-          <li><a href="">Genre</a></li>   
-        </ul>
-      </div>
+      <!-- float: left -->
+      <div class="right-side-container">
+        
+        <!-- float: left -->
+        <div class="header__navigation">
+          <ul>
+            <li><a href="">Books</a></li>
+            <li><a href="">Authors</a></li>
+            <li><a href="">Genre</a></li>   
+          </ul>
+        </div>
     
-      <div class="header__search">
-        <img src="assets/search.png" width="20" height="20" alt="Search">
+        <!-- float: right -->
+        <div class="header__search">
+          <img src="assets/search.png" width="20" height="20" alt="Search">
+        </div>
+        
+        <div class="clear"></div>
       </div>
-  
+      
       <div class="clear"></div>
     </div>
     
-    <div class="header__text">
-      <h2>How Will You Measure Your Life?</h2>
-      <h4>Clayton Christensen</h4>
+    <div class="container">
+      <div class="header__text right-side-container fill-left">
+        <h2>How Will You Measure Your Life?</h2>
+        <h4>Clayton Christensen</h4>
+      </div>
+    
+      <div class="clear"></div>
     </div>
 
   </header>
 
   <div class="container">
+    
+    <div class="left-side-container pull-up-book-section">
+      <div class="book">
+        <h4>How Will You Measure Your Life?</h4>
+        <hr>
+        <h4>Clayton M. Christensen</h4>
+        <h5>James Allworth</h5>
+        <h5>Garen Dillon</h5>
+      </div>
   
-    <div class="book">
-      <h4>How Will You Measure Your Life?</h4>
-      <hr>
-      <h4>Clayton M. Christensen</h4>
-      <h5>James Allworth</h5>
-      <h5>Garen Dillon</h5>
+      <div class="details">
+        <p class="details__category">Description</p>
+        <p class="category__contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae nisl pulvinar, scelerisque enim vel, congue magna. Ut ornare dapibus elit, non malesuada nunc laoreet elementum. Nullam laoreet tortor at augue consectetur, et pellentesque massa volutpat. Ut at placerat sem. Nam faucibus feugiat magna, non mattis mi finibus ac. Etiam congue a lectus a lobortis. Vestibulum pellentesque erat auctor ullamcorper luctus. Praesent vehicula, sem nec congue ultrices, sem ex blandit elit, nec pretium augue arcu eget magna. Sed et nulla eget nisi viverra lobortis at quis augue. Sed vitae lorem id urna rutrum luctus quis non urna. Morbi nec aliquet purus. Praesent sodales vitae ex eget efficitur. Proin a euismod libero.</p>
+      
+        <p class="details__category">Publisher</p>
+        <p class="category__contents">HarperCollins</p>
+      
+        <p class="details__category">Copyright</p>
+        <p class="category__contents">2012</p>
+      
+        <p class="details__category">Buy This Book</p>
+        <p class="category__contents">Amazon</p>
+      </div>
+    </div>
+    
+    <div class="right-side-container">
+      <div class="quotes">
+    
+        <div class="quotes__quote">
+          <div class"quote__top-bar">
+            <p class="quote__book-title">How Will You Measure Your Life?</p>
+            <p class="quote__page">Page 27</p>
+          </div>
+          <div class="clear"></div>
+          <div class="quote__text" id="quote__1">
+            <blockquote>The trap many people fall into is to allocate their time to whoever screams loudest and their talent to whatever offers them the fastest reward.</blockquote>
+          </div>
+        </div>
+    
+        <div class="quotes__quote">
+          <div class"quote__top-bar">
+            <p class="quote__book-title">How Will You Measure Your Life?</p>
+            <p class="quote__page">Page 32</p>
+          </div>
+          <div class="clear"></div>
+          <div class="quote__text">
+            <blockquote>Many managers [believe] that when you need to convince others... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+          </div>
+        </div>
+    
+      </div>
     </div>
   
-    <div class="details">
-      <p class="details__category">Description</p>
-      <p class="category__contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae nisl pulvinar, scelerisque enim vel, congue magna. Ut ornare dapibus elit, non malesuada nunc laoreet elementum. Nullam laoreet tortor at augue consectetur, et pellentesque massa volutpat. Ut at placerat sem. Nam faucibus feugiat magna, non mattis mi finibus ac. Etiam congue a lectus a lobortis. Vestibulum pellentesque erat auctor ullamcorper luctus. Praesent vehicula, sem nec congue ultrices, sem ex blandit elit, nec pretium augue arcu eget magna. Sed et nulla eget nisi viverra lobortis at quis augue. Sed vitae lorem id urna rutrum luctus quis non urna. Morbi nec aliquet purus. Praesent sodales vitae ex eget efficitur. Proin a euismod libero.</p>
-      
-      <p class="details__category">Publisher</p>
-      <p class="category__contents">HarperCollins</p>
-      
-      <p class="details__category">Copyright</p>
-      <p class="category__contents">2012</p>
-      
-      <p class="details__category">Buy This Book</p>
-      <p class="category__contents">Amazon</p>
-    </div>
+    <div class="clear"></div>
+    
   </div>
-  
-  <div class="quotes">
-    
-    <div class="quotes__quote">
-      <div class"quote__top-bar">
-        <p class="quote__book-title">How Will You Measure Your Life?</p>
-        <p class="quote__page">Page 27</p>
-      </div>
-      <div class="clear"></div>
-      <div class="quote__text" id="quote__1">
-        <blockquote>The trap many people fall into is to allocate their time to whoever screams loudest and their talent to whatever offers them the fastest reward.</blockquote>
-      </div>
-    </div>
-    
-    <div class="quotes__quote">
-      <div class"quote__top-bar">
-        <p class="quote__book-title">How Will You Measure Your Life?</p>
-        <p class="quote__page">Page 32</p>
-      </div>
-      <div class="clear"></div>
-      <div class="quote__text">
-        <blockquote>Many managers [believe] that when you need to convince others... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
-      </div>
-    </div>
-    
-  </div>
-  
 </body>
 </html>

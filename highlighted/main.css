@@ -116,11 +116,31 @@ header {
 
 .quotes {
   float:right;
-  margin-right:100px;
+  margin-right:120px;
   width:50%;
 }
 
 .quotes__quote {
   float:right;
+}
+
+.quote__book-title {
+  width:50%;
+  float:left;
+  font-weight:bold;
+  color:#F8D71D;
+}
+
+.quote__page {
+  width:10%;
+  float:right;
+  color:gray;
+}
+
+.quote__text {
   border-left: 3px solid #F8D71D;
+}
+
+#quote__1{
+  font-size:20pt;
 }
